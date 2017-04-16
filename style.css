@@ -1,0 +1,74 @@
+.center {
+  text-align: center;
+  margin-top:40px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+  display: inline;
+  border: 2px solid #4B515D;
+  border-radius: 5px;
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  background-color: #FFFFFF;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+h2 {
+    color: rebeccapurple;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px #4B515D;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.btn-circle.btn-md {
+  width: 60px;
+  height: 60px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 50%;
+}
+.btn-circle.btn-lg {
+  width: 120px;
+  height: 120px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 50%;
+}
+#input-parent {
+  position: relative;
+  margin:auto;
+}
+#submit {
+  position: absolute;
+  left:55%;
+  bottom:10%;
+}
+#player-input {
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding:15px;
+}
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  /*color: #4B515D;*/
+}
